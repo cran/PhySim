@@ -1,0 +1,25 @@
+	'birthdeath.simulation' simulates a series of birth death 
+	phylogenetic trees for a given period of time. Trees are
+	save to two files containing trees with extinct taxa and 
+	recostructed trees with extant tips only.
+
+	'birthdeath.tree' simulates a single birth death 
+	phylogenetic tree for a given period of time.
+
+	'extract.sister' extracts all sister species(cherries)
+	from an object of class "phy".
+
+	'lagtime.batch' models a lag-time to species formation 
+	along a batch of phylogenetic trees simulated using 
+	'birthdeath.simulation' and deletes nodes classified as 
+	intraspecific splits.
+	
+	'lagtime' models a lag-time to species formation along a
+	phylogenetic tree and deletes nodes classified as intraspecific
+	splits.
+
+	'readPhySim.tree' reads phylogenetic trees in a compatible format.
+
+	'writePhySim.tree' writes phylogenetic trees in a compatible 		format.
+
+
